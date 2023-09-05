@@ -1,0 +1,16 @@
+#Exercise 1
+while True:
+    LoveComputerScience = input("Do you love computer science? y/n")
+    if LoveComputerScience == "y":
+        print("GOOD BOI")
+        break
+    elif LoveComputerScience == "n":
+        print("You better be")
+
+#Exercise 2
+number = 0
+while number < 15 or number > 20 :
+    print("Please enter a number between 15 and 20")
+    number = int(input("enter a number:"))
+
+print("Good job")
